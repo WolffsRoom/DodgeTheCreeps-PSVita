@@ -12,10 +12,9 @@ Original gameplay, audio and controller support were confirmed functional on rea
 
 ## Features
 
-- D-pad/analog movement; **X or START** to begin; **Triangle** to open settings.
+- D-pad/analog movement: **X or START** to begin and **Triangle** to open settings.
 - Speed (250/400/550 px/s), master volume (0–100%) and FPS cap (30/45/60); preferences persist. **Circle** closes the menu.
-- Background colors change progressively with score; Vita-friendly sprite trail.
-- Custom `a5` LiveArea and a six-second Godot Vita chewing animation after `pic0`.
+- Background colors change progressively with score.
 
 ## Screenshots
 
