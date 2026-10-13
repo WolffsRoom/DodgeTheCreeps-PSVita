@@ -1,8 +1,12 @@
-<p align="center"><img src="assets/LiveArea/icon0.png" alt="Dodge the Creeps Vita" width="110"></p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3c75bfe2-4e3b-49a8-a242-21ca991c89f1" alt="Dodge the Creeps on PS Vita" width="900">
+</p>
 
-# Dodge the Creeps Vita
+<p align="center">
+  Port of <strong>Dodge the Creeps</strong> for the PlayStation Vita.
+</p>
 
-A native PlayStation Vita port of Godot's **Dodge the Creeps** demo, using [Godot 4 Vita](https://github.com/WolffsRoom/godot4-vita) (4.8-dev7, native GXM 2D). Title ID: `GDDC40001`.
+A native PlayStation Vita port of Godot's **Dodge the Creeps** demo, using [Godot 4 Vita](https://github.com/WolffsRoom/godot4-vita) (4.8-dev7, native GXM 2D). 
 
 Original gameplay, audio and controller support were confirmed functional on real hardware. The latest settings menu and animated loading screen have passed build/host tests but still need a new physical-Vita check.
 
@@ -42,5 +46,3 @@ Or run `./build.ps1` in PowerShell. The VPK is generated under `releases/latest/
 - [Godot Engine](https://godotengine.org) and [Dodge the Creeps](https://github.com/godotengine/godot-demo-projects/tree/master/2d/dodge_the_creeps).
 - [WolffsRoom/godot4-vita](https://github.com/WolffsRoom/godot4-vita) for the Vita engine/backend, based on [VitaSDK](https://vitasdk.org), [VitaGL](https://github.com/Rinnegatamante/vitagl) and [kuBridge](https://github.com/TheOfficialFloW/kuBridge).
 - Original game, fonts and library licenses are retained in their respective folders.
-
-Experimental homebrew; FPS limits are not guaranteed frame rates.
