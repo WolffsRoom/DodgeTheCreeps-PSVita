@@ -15,6 +15,8 @@ Original gameplay, audio and controller support were confirmed functional on rea
 - D-pad/analog movement: **X or START** to begin and **Triangle** to open settings.
 - Speed (250/400/550 px/s), master volume (0–100%) and FPS cap (30/45/60); preferences persist. **Circle** closes the menu.
 - Background colors change progressively with score.
+- Smooth death transition with sprite fragments, music fade-out and a Vita-friendly sprite trail.
+- 48 kHz PCM audio replaces real-time Vorbis decoding to help reduce playback stutters.
 
 ## Screenshots
 
