@@ -16,7 +16,7 @@ Original gameplay, audio and controller support were confirmed functional on rea
 - Speed (250/400/550 px/s), master volume (0–100%) and FPS cap (30/45/60); preferences persist. **Circle** closes the menu.
 - Background colors change progressively with score.
 - Smooth death transition with sprite fragments, music fade-out and a Vita-friendly sprite trail.
-- 48 kHz PCM audio replaces real-time Vorbis decoding to help reduce playback stutters.
+- 48 kHz PCM audio replaces real-time Vorbis decoding to help reduce playback stutters. The Vita driver now also uses a larger 2048-frame output block and requests high audio-thread priority.
 
 ## Screenshots
 

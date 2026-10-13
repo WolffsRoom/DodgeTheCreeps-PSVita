@@ -6,7 +6,7 @@ if [[ ! -x "$GODOT_BIN" ]]; then
   echo "Host Godot executable missing: $GODOT_BIN" >&2
   exit 2
 fi
-for TEST in host_smoke host_joypad_matrix host_visual_smoke host_score10_smoke host_settings_smoke host_audio_death_smoke; do
+for TEST in host_smoke host_joypad_matrix host_visual_smoke host_score10_smoke host_settings_smoke host_audio_death_smoke host_vita_dpad_paused_smoke; do
   echo "Running $TEST..."
   "$GODOT_BIN" --headless --path "$ROOT/game" --script "$ROOT/tests/$TEST.gd"
 done
