@@ -17,6 +17,17 @@ Original gameplay, audio and controller support were confirmed functional on rea
 - Background colors change progressively with score; Vita-friendly sprite trail.
 - Custom `a5` LiveArea and a six-second Godot Vita chewing animation after `pic0`.
 
+## Screenshots
+
+<p align="center">
+  <a href="assets/prints/2026-10-13-030730-125858.png"><img src="assets/prints/2026-10-13-030730-125858.png" alt="Dodge the Creeps Vita screenshot 1" width="48%"></a>
+  <a href="assets/prints/2026-10-13-030732-845114.png"><img src="assets/prints/2026-10-13-030732-845114.png" alt="Dodge the Creeps Vita screenshot 2" width="48%"></a>
+</p>
+<p align="center">
+  <a href="assets/prints/2026-10-13-030736-649110.png"><img src="assets/prints/2026-10-13-030736-649110.png" alt="Dodge the Creeps Vita screenshot 3" width="48%"></a>
+  <a href="assets/prints/2026-10-13-030748-394306.png"><img src="assets/prints/2026-10-13-030748-394306.png" alt="Dodge the Creeps Vita screenshot 4" width="48%"></a>
+</p>
+
 ## Build
 
 Requires [VitaSDK](https://vitasdk.org), CMake, Python 3, a Godot 4.8 host executable to import assets, and a matching engine/VitaGL build from [godot4-vita](https://github.com/WolffsRoom/godot4-vita). Follow the [engine build guide](https://github.com/WolffsRoom/godot4-vita/blob/main/platform/vita/BUILDING.md) first.
